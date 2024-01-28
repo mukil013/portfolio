@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukil | portfolio</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">More</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="progress"></div>
+    <main>
+        <section id="home">
+            <div class="hi">Hi, my name is</div>
+            <div class="name">Mukilan</div>
+        </section>
+        <section id="projects">
+            <div class="windows">
+                <div class="tab">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="menu">
+                        <button id="about" onclick="content('#content1')">
+                            <img src="./media/about.png" alt="about" height="18rem">About</button>
+                        <button id="project" onclick="content('#content2')">
+                            <img src="./media/invention.png" alt="project" height="18rem">
+                            Projects</button>
+                        <p>Click the above to view</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div id="content1" class="contentbox hidden">
+                        <h1>About me</h1><br/><p>Enthusiastic and dedicated undergraduate student pursuing a Bachelor's degree in Computer Science and
+Engineering with a passion for creating innovative solutions. I have a cognitive knowledge in data structures,
+algorithm design and in multiple programming languages, including Java, Python, C, and also know the
+frameworks React and Flutter.
+                        </p>
+                    </div>
+                    <div id="content2" class="contentbox hidden">
+                        <div class="p">
+                            <h1>Hinge</h1><p>A e-commerce website.</p>
+                        </div>
+                        <div class="p">
+                            <h1>Wavvy</h1><p>A online music player.</p>
+                        </div>
+                        <div class="p">
+                            <h1>Downtown</h1><p>A online video downloader.</p>
+                        </div>
+                        <div class="p">
+                            <h1>FreeRealEstate</h1><p>A website for real estate.</p>
+                        </div>
+                        <div class="info">Visit my github for these projects.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="selfpara">
+                Want to know more about me?
+                <div class="download"><a href="./media/Mukilan Muruganantham.pdf" download>Download my resume here</a></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Contact me
+        <div class="socials">
+            <div class="phn"><img src="./media/phone-13.png" alt="phone" height="20rem">+91 94882 41295</div>
+            <div class="mail"><img src="./media/mail-2564.png" alt="mail" height="20rem">mukilmukil1947@gmail.com</div>
+            <div class="linkedin"><a href="https://www.linkedin.com/in/mukilan-muruganantham/"><img src="./media/linkedin-112.png" alt="linkedIn" height="20rem"> Mukilan Muruganantham</a></div>
+        </div>
+    </footer>
+</body>
+<script src="./js/app.js"></script>
+</html>
