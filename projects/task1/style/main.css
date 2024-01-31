@@ -69,6 +69,7 @@ body{
     background-image: url('../media/pexels-dom-j-310452.jpg');
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #progress{
